@@ -82,4 +82,4 @@ A connected graph with n vertices requires at least n-1 edges.
 
 3. A tree is a connected graph with no cycles. If you take an existing tree and add exactly one new edge between two non-adjacent vertices, what structural property is immediately violated?
 
-The property of no cycles is violated. 0->1, 0->2, 1->3 
+The property of no cycles is violated. 0->1, 0->2, 1->2
