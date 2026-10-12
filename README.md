@@ -23,11 +23,11 @@ For the following graph, list the vertices and edges. What is the size of the gr
 
 ![ex1](images/ex1.png)
 
-- **Vertices**: 
+- **Vertices**: 5 = {0, 1, 2, 3, 4}
 
-- **Edges**: 
+- **Edges**: 5 = {1, 2}, {1, 0}, {2, 0}, {0, 3}, {3, 4}
 
-- **Size**:
+- **Size**: n = 5, m = 5
 
 
 ## Paths and Distances
@@ -45,26 +45,26 @@ The graph below shows the state of the internet in 1970s. Vertices represent com
 
 1. Find a path from RAND to SRI. What is the distance between these two vertices?
 
-- **Path**:
+- **Path**:RAND → UCLA -> SRI
 
-- **Distance**:
+- **Distance**:2
 
 2. Find a path from RAND to MIT. What is the distance between these two vertices?
 
-- **Path**:
+- **Path**:RAND -> BBN -> MIT
 
-- **Distance**:
+- **Distance**:2
 
 3. Classify each of the following paths as simple, not simple, or a cycle. State your reasoning!
 
 - **Path 1**: LINC, MIT, LINC, CASE
-- **Classification**:
+- **Classification**:not simple
 
 - **Path 2**: UCSB, SRI, STAN, UCLA, UCSB
-- **Classification**:
+- **Classification**:cycle
 
 - **Path 3**: UCSB, SRI, UTAH
-- **Classification**:
+- **Classification**:simple
 
 ## Connectivity and Trees
 
