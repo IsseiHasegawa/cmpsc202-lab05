@@ -77,6 +77,8 @@ Think through these with your partner(s) before answering the questions below. I
 
 1. A connected graph is defined as a graph with paths between every pair of vertices. If a graph with 10 vertices has exactly 8 edges, is it possible for the graph to be connected? Explain your reasoning based on the minimum number of edges required to link all vertices.
 
-
+No, 0->1->2->3->4->5->6->7->8->9
+A connected graph with n vertices requires at least n-1 edges.
 
 2. A tree is a connected graph with no cycles. If you take an existing tree and add exactly one new edge between two non-adjacent vertices, what structural property is immediately violated?
+The property of no cycles is violated. 0->1, 0->2, 1->3 
