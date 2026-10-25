@@ -59,12 +59,15 @@ The graph below shows the state of the internet in 1970s. Vertices represent com
 
 - **Path 1**: LINC, MIT, LINC, CASE
 - **Classification**:not simple
+- **Reasoning**:Because LINC appears more than once, and the path does not end where it starts.
 
 - **Path 2**: UCSB, SRI, STAN, UCLA, UCSB
 - **Classification**:cycle
+- **Reasoning**:Because the path starts and ends at UCSB, and no other vertices are repeated.
 
 - **Path 3**: UCSB, SRI, UTAH
 - **Classification**:simple
+- **Reasoning**:Because no vertices are repeated.
 
 ## Connectivity and Trees
 
